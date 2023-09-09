@@ -1,0 +1,70 @@
+.TourSearch {
+  width: 90%;
+  max-width: 600px;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  height: auto;
+  z-index: 5;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5.224px;
+  background: rgba(243, 243, 243, 0.6);
+  -webkit-backdrop-filter: blur(17.760618209838867px);
+  backdrop-filter: blur(17.760618209838867px);
+  flex-wrap: nowrap;
+  /* align-content: center; */
+  justify-content: space-evenly;
+}
+
+.searchItem {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15.805px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Adjust the font size for smaller screens */
+@media (max-width: 768px) {
+  .TourSearch {
+    width: 90%;
+    max-width: 90%;
+    height: auto;
+    top: 60%;
+  }
+  .searchItem {
+    font-size: 14px;
+  }
+}
+.spacer {
+  width: 2px;
+  height: 30px;
+  background-color: #fff;
+  opacity: 0.5;
+}
+.Searchbtn {
+  width: 9.3vw;
+  height: 6.5vh;
+  border: 0;
+  border-radius: 10px;
+  background: #df6951;
+  margin-right: -1vw;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15.805px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.Searchbtn:hover {
+  background-color: #ff7f50; /* Change background color on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow on hover */
+}

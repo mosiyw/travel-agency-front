@@ -1,0 +1,71 @@
+/* Footer.css */
+.footer-container {
+  background-image: url("/src/assets/images/footer/Footerimg.png");
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 30%; /* Use the image's original size */
+  background-color: #fff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  height: 45vh;
+  display: flex;
+  flex-direction: column; /* Stack the elements vertically */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  position: relative; /* Create a positioning context for child elements */
+}
+
+.mainContainer {
+  width: 70%;
+  height: 70%;
+  color: #181433;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  display: flex;
+  margin-bottom: 1vh;
+}
+
+.horizontal-line {
+  width: 70%; /* Make the line span the entire width */
+  height: 2px; /* Adjust the height as needed */
+  background-color: #e5e5ea; /* Updated line color */
+  margin: 20px 0; /* Add spacing between the mainContainer and the line */
+}
+
+.copyright-text {
+  color: #181433; /* Updated copyright text color */
+  font-size: 12px;
+  margin-top: 10px; /* Add spacing below the line */
+}
+.footer-label {
+  color: #181433;
+  font-family: poppins;
+  font-size: 1.6vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 114.286% */
+  margin-bottom: -3px;
+}
+
+.footer-link {
+  color: #181433;
+  font-family: poppins;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  margin-bottom: -5px; /* Adjust this value as needed to reduce space between links */
+}
+
+.footer-column {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 40%;
+}

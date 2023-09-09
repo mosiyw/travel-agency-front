@@ -1,0 +1,41 @@
+.card-container {
+  width: 20%;
+  aspect-ratio: 1/1.3;
+  border-radius: 30px;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.img-container {
+  width: 100%;
+  height: 45%;
+  background-color: #f2f2f2;
+  border-radius: 30px;
+}
+
+.card-title {
+  color: var(--text-heading-color, #1e1d4c) !important;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.5vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1; /* Reduce line-height to remove space */
+  margin-bottom: -4px; /* Adjust this value to decrease space */
+}
+
+.card-description {
+  color: var(--TEXT-CLR, #5e6282);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.1vw;
+  max-width: 80%;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3vh; /* Reduce line-height to remove space */
+}

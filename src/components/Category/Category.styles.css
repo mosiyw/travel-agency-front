@@ -1,0 +1,42 @@
+.main-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5vh;
+}
+
+.title-label {
+  color: #df6951;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0; /* Adjust this value as needed */
+}
+
+.description {
+  color: #181e4b;
+  text-align: center;
+  font-family: Volkhov;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  max-width: 45vw;
+  text-transform: capitalize;
+}
+.line {
+  position: absolute;
+  width: 10vw;
+}
+.cards {
+  width: 80%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}

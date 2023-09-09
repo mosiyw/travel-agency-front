@@ -1,0 +1,17 @@
+.logo img {
+  width: 8vw;
+}
+.logo {
+  text-align: center;
+}
+.container {
+  height: 16vh;
+  background-color: #f7f7f7;
+  position: relative;
+}
+.maingrid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}

@@ -1,0 +1,62 @@
+.sticky-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 0;
+  z-index: 100; /* Adjust the z-index to ensure it's above other content */
+  /* Add any other styles you want for your header */
+}
+
+.sticky-header nav {
+  display: flex;
+  justify-content: center;
+}
+
+.sticky-header ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.sticky-header li {
+  margin: 0 15px;
+  color: #fff; /* Adjust text color as needed */
+  cursor: pointer;
+  position: relative; /* Add this to make the dropdown positioning relative to the li element */
+}
+
+/* Add styles for hover, active, or any other states as needed */
+
+/* Add styles to ensure the header doesn't overlap content */
+/* Add styles for hover effect */
+.sticky-header li:hover {
+  transform: scale(1.1); /* Increase the size on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.dropdown-content {
+  display: none;
+  width: 30%;
+  position: absolute;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  top: 130%; /* Position below the li */
+  opacity: 0; /* Initially set opacity to 0 */
+  transition: opacity 0.3s ease-in-out; /* Add a smooth fade-in transition */
+  border-radius: 5.224px;
+  background: rgba(243, 243, 243, 0.6);
+  -webkit-backdrop-filter: blur(17.760618209838867px);
+  backdrop-filter: blur(17.760618209838867px);
+}
+
+.services:hover .dropdown-content {
+  display: flex;
+  min-width: calc(
+    100% + 10vw
+  ); /* Set min-width 5vw larger than content width */
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  opacity: 1; /* Show the dropdown with opacity 1 on hover */
+}
